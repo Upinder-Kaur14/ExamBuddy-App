@@ -36,19 +36,6 @@ class MyApp extends StatelessWidget {
           secondary: Colors.orange,
         ),
       ),
-      // darkTheme: ThemeData(
-      //   brightness: Brightness.dark,
-      //   primarySwatch: Colors.blue,
-      //   visualDensity: VisualDensity.adaptivePlatformDensity,
-      //   fontFamily: 'Poppins',
-      //   colorScheme: ColorScheme.fromSeed(
-      //     seedColor: Colors.blue,
-      //     primary: Colors.blue.shade400,
-      //     secondary: Colors.orangeAccent,
-      //     brightness: Brightness.dark,
-      //   ),
-      // ),
-      // themeMode: ThemeMode.system,
       home: SplashScreen(),
     );
   }
